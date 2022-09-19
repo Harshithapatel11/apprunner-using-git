@@ -1,0 +1,33 @@
+{
+  "name": "app_runner_example",
+  "version": "0.1.0",
+  "main": "index.js",
+  "bin": {
+    "app_runner_example": "bin/app_runner_example.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "10.17.27",
+    "@types/prettier": "2.6.0",
+    "aws-cdk": "2.41.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.9.1",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apprunner": "^1.172.0",
+    "@aws-cdk/core": "^1.172.0",
+    "aws-cdk-lib": "2.41.0",
+    "constructs": "^10.0.0",
+    "express": "^4.18.1",
+    "source-map-support": "^0.5.21"
+  }
+}
