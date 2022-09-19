@@ -10,7 +10,7 @@ export class AppRunnerExampleStack extends cdk.Stack {
     new apprunner.Service(this, 'Service', {
       serviceName: "appRunnerService",
       source: apprunner.Source.fromGitHub({
-        repositoryUrl: 'https://github.com/Harshithapatel11/apprunner-with-git',
+        repositoryUrl: 'https://github.com/Harshithapatel11/apprunner-using-git/tree/master',
         branch: 'master',
         configurationSource: apprunner.ConfigurationSourceType.REPOSITORY,
         connection: apprunner.GitHubConnection.fromConnectionArn('arn:aws:apprunner:us-east-1:598815891177:connection/apprunnerGithubConnector/f2efde17d29c44f48e27c783d9a13603'),
