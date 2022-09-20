@@ -13,7 +13,7 @@ export class AppRunnerExampleStack extends cdk.Stack {
         repositoryUrl: 'https://github.com/Harshithapatel11/apprunner-using-git/tree/master',
         branch: 'master',
         configurationSource: apprunner.ConfigurationSourceType.REPOSITORY,
-        connection: apprunner.GitHubConnection.fromConnectionArn('arn:aws:apprunner:us-east-1:598815891177:connection/apprunnerGithubConnector/f2efde17d29c44f48e27c783d9a13603'),
+        connection: apprunner.GitHubConnection.fromConnectionArn('arn:aws:apprunner:us-east-1:598815891177:connection/apprunnerGithubConnector/472516747d6a4223b0dd645c465a886a'),
       }),
     });
     
